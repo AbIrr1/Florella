@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="@string/collection_des_boutiques"
+        android:textColor="@color/bleu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="@string/l3"
+        android:textColor="@color/bb" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/msg" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/back"
+        android:shadowColor="@color/bleu"
+        android:text="@string/connect"
+        android:textColor="@color/wh"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/insc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/back"
+        android:shadowColor="@color/bleu"
+        android:text="@string/insc"
+        android:textColor="@color/wh"
+        android:textStyle="bold" />
+</LinearLayout>
+

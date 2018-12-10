@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Collecter votre bouquet"
+        android:textColor="@color/pink"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f1" />
+
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f2" />
+
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f3" />
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f4" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="119dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="BOUQUET DE ROSES AMOUR PASSION" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="ROSES ET BOUGIE PARFUMÉE" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="BOUQUET ROMANTICA" />
+
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="ÉMOTION" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f5" />
+
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f6" />
+
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f7" />
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86dp"
+            android:scrollbarSize="25dp"
+            android:src="@drawable/f8" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Idylle" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Je t’\M" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Paris" />
+
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="151dp"
+            android:text="BOUQUET DE ROSES ECLAT D'AMOUR" />
+
+    </LinearLayout>
+
+</LinearLayout>

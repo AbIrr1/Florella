@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="@string/je_m_inscris"
+        android:textColor="@color/pink" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_et_gratuit_vous_cumulez_des_r_ductions_avec_tous_vos_achats"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nom1" />
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:text="@string/saisir_votre_nom" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prenom" />
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saisir_votre_prenom" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="@string/telephone" />
+
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:text="@string/saisir_votre_telephone" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="@string/emailll" />
+
+        <EditText
+            android:id="@+id/emaill"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:text="@string/saisir_votre_email" /></LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choisissez_un_mot_de_passe_4_caract_res_minimum"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mot_de_passe" />
+
+        <EditText
+            android:id="@+id/mdp"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:text="@string/saisir_votre_mot_de_passe" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmez_votre_mot_de_passe" />
+
+        <EditText
+            android:id="@+id/mddp"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmer_votre_mot_de_passe" /></LinearLayout>
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inscrire"
+        android:textColor="@color/b"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/langage"
+        android:title="@string/lang"
+        />
+    <item
+        android:id="@+id/apropos"
+        app:showAsAction="never"
+        android:title="@string/apropos"
+        android:orderInCategory="100">
+    </item>
+    <item
+        android:id="@+id/services"
+        android:title="@string/services"></item>
+    <item
+        android:id="@+id/servclient"
+        android:title="@string/serviceC"
+        ></item>
+    <item
+        android:id="@+id/avis"
+        android:title="@string/AvisC"
+        ></item>
+    <item
+        android:id="@+id/aide"
+        android:title="@string/aide"
+        ></item>
+</menu>
+
+
+
+
+
